@@ -1,0 +1,117 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #171b64;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    text-transform: uppercase;
+}
+
+.imagen-central {
+    position: relative;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+
+.imagen-central p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 22rem;
+}
+
+.fondo-transparente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.texto-celeste {
+    color: #68bdd2;
+}
+
+.texto-rojo {
+    color: #d3014c;
+}
+
+.texto-marron {
+    color: #563a28;
+}
+
+.cuadrado-color {
+    height: 140px;
+}
+
+.color-frio1 {
+    background: #68bdd2;
+}
+
+.color-frio2 {
+    background: #9ed9e9;
+}
+
+.color-frio3 {
+    background: #9bd8d0;
+}
+
+.color-frio4 {
+    background: #95e8de;
+}
+
+.color-frio5 {
+    background: #d1f9f8;
+}
+
+.color-calido1 {
+    background: #ffab00;
+}
+
+.color-calido2 {
+    background: #ff7f00;
+}
+
+.color-calido3 {
+    background: #ff3801;
+}
+
+.color-calido4 {
+    background: #d3014c;
+}
+
+.color-calido5 {
+    background: #a8006d;
+}
+
+.color-marron1 {
+    background: #553a27;
+}
+
+.color-marron2 {
+    background: #e7c27b;
+}
+
+.color-marron3 {
+    background: #f2eadf;
+}
+
+.color-marron4 {
+    background: #f2a241;
+}
+
+.color-marron5 {
+    background: #edd3b8;
+}
