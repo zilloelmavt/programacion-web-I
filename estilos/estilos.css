@@ -7,7 +7,7 @@ html {
 }
 
 .navbar-brand img {
-    width: 180px;
+    min-width: 180px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -28,11 +28,10 @@ html {
     height: 560px;
 }
 
-.imagen-central p {
+.texto-imagen-central {
     font-size: 1.8rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 22rem;
 }
 
 .fondo-transparente {
@@ -120,6 +119,7 @@ html {
     background: #edd3b8;
 }
 
+
 #rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
     -webkit-background-clip: text;
@@ -148,5 +148,119 @@ html {
 #gris{
     color: gray;
     font-size: 30px;
+}
+
+
+#productos {
+    text-transform: uppercase;
+}
+
+#productos article {
+    padding-bottom: 4rem;
+}
+
+#productos article img {
+    width: 60%;
+    height: auto;
+}
+
+#productos article h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#productos article ul li{
+    font-size: 1.5rem;
+}
+
+#mancha1 {
+    background-image: url(../imagenes/mancha.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#mancha2 {
+    background-image: url(../imagenes/mancha2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 1280px){
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .texto-imagen-central {
+        font-size: 1.3rem;
+    }
+
+    .cuadrado-color {
+        height: 112px;
+    }
+
+    .navbar-brand img {
+        min-width: auto;
+        width: 170px;
+    }
+
+    .detalles {
+        margin-left: 30%;
+    }
+    
+    #productos {
+        background-image: url(../imagenes/mancha2.png);
+        background-position: left 30%;
+        background-repeat: no-repeat;
+        padding-bottom: 4rem;
+    }
+
+    #productos article {
+        padding-bottom: 0;
+    }
+    
+    #productos article h2 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    #mancha2 {
+        background-position: bottom left;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .navbar-brand img {
+        width: 120px;
+    }
+
+    .detalles {
+        margin-left: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+
+    #productos article img {
+        width: 100%;
+    }
+    
+    #productos article h2 {
+        font-size: 1.6rem;
+    }
+
+    #productos article ul li {
+        font-size: 1.1rem;
+    }
+
+    #mancha1, #mancha2 {
+        background-position: top right;
+    }
 }
 
