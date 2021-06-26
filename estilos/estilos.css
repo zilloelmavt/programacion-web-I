@@ -131,7 +131,7 @@ html {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-bottom: 30px;
 }
 
 #casamarilla{
@@ -142,12 +142,19 @@ html {
 #colorado{
     font-size: 30px;
     color: brown;
-    
+    margin-top: 40px;
 }
 
 #gris{
     color: gray;
     font-size: 30px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.centradisimo{
+    height: 100%;
+    object-fit: cover;
 }
 
 
