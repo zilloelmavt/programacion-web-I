@@ -124,9 +124,8 @@ html {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
     -webkit-background-clip: text;
   color: transparent;
-    font-size: 32px;
+    font-size: 2rem;
     text-align: center;
-    width: 600px;
     margin: 0;
     padding: 0;
     margin-left: auto;
@@ -135,7 +134,7 @@ html {
 }
 
 #casamarilla{
-    width: 550px; 
+ 
     height: 500px;
 }
 
@@ -160,18 +159,15 @@ html {
 }
 
 .puntos{ 
-    background-image: url(../imagenes/Puntos.png);
-    height: 600px;
+    background-image: url(../imagenes/puntos.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 30px;
 }
 
 .pareja{
     background-image: url(../imagenes/parejapintando.jpg);
-    height: 600px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .azul{
@@ -194,6 +190,7 @@ html {
     color: black;
     
 }
+
 
 #productos {
     text-transform: uppercase;
@@ -278,6 +275,15 @@ html {
         background-repeat: no-repeat;
         padding-bottom: 4rem;
     }
+    
+    .pareja {
+      background-image: none;  
+    }
+    #contacto {
+        background-image: url(../imagenes/parejapintando.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+         }
 }
 
 @media screen and (max-width: 420px){
@@ -320,5 +326,29 @@ html {
     .cuadrado-color {
         height: 80px;
     }
+    
+    .parrafopuntos{
+        
+    font-size: 1rem;
+}
+    .azul{
+    
+    font-size: 1.5rem;
+}
+    #contacto {
+       background-position: bottom right;
+         }
+    #colorado,#gris{
+    font-size: 1.2rem;
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    
+}
+#casamarilla{
+     
+    height: auto;
+}
+
 }
 
