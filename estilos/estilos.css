@@ -140,16 +140,18 @@ html {
 }
 
 #colorado{
-    font-size: 30px;
+    font-size: 2rem;
     color: brown;
     margin-top: 40px;
+    font-weight: bold;
 }
 
 #gris{
     color: gray;
-    font-size: 30px;
+    font-size: 2rem;
     margin-left: 20px;
     text-align: right;
+    font-weight: bold;
 }
 
 .centradisimo{
@@ -157,6 +159,41 @@ html {
     object-fit: cover;
 }
 
+.puntos{ 
+    background-image: url(../imagenes/Puntos.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30px;
+}
+
+.pareja{
+    background-image: url(../imagenes/parejapintando.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.azul{
+    color: blue;
+    font-size: 2rem;
+}
+
+.verde{
+    color: green;
+}
+
+.parrafopuntos{
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.enlace{
+    color: black;
+    
+}
 
 #productos {
     text-transform: uppercase;
