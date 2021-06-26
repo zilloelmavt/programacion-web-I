@@ -157,6 +157,24 @@ html {
     object-fit: cover;
 }
 
+.puntos{ 
+    background-image: url(../imagenes/Puntos.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    
+}
+
+.pareja{
+    background-image: url(../imagenes/parejapintando.jpg);
+}
+
+.azul{
+    color: blue;
+}
+
+.verde{
+    color: green;
+}
 
 #productos {
     text-transform: uppercase;
