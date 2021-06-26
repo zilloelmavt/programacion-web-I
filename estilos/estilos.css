@@ -19,7 +19,7 @@ html {
     text-transform: uppercase;
 }
 
-.imagen-central {
+.imagen-central, .imagen-central-mobile {
     position: relative;
     background-image: url(../imagenes/fondo2.jpg);
     background-position: top left;
@@ -209,17 +209,6 @@ html {
         width: 170px;
     }
 
-    .detalles {
-        margin-left: 30%;
-    }
-    
-    #productos {
-        background-image: url(../imagenes/mancha2.png);
-        background-position: left 30%;
-        background-repeat: no-repeat;
-        padding-bottom: 4rem;
-    }
-
     #productos article {
         padding-bottom: 0;
     }
@@ -228,9 +217,22 @@ html {
         text-align: left;
         font-size: 2rem;
     }
+}
+
+@media screen and (max-width: 768px){
+    .detalles {
+        margin-left: 30%;
+    }
 
     #mancha2 {
         background-position: bottom left;
+    }
+
+    #productos {
+        background-image: url(../imagenes/mancha2.png);
+        background-position: left 30%;
+        background-repeat: no-repeat;
+        padding-bottom: 4rem;
     }
 }
 
@@ -261,6 +263,18 @@ html {
 
     #mancha1, #mancha2 {
         background-position: top right;
+    }
+
+    .imagen-central {
+        background-position: right center;
+    }
+
+    .imagen-central, .imagen-central-mobile {
+        height: 400px;
+    }
+
+    .cuadrado-color {
+        height: 80px;
     }
 }
 
