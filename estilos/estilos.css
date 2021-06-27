@@ -6,6 +6,11 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .navbar-brand img {
     min-width: 180px;
 }
